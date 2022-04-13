@@ -1,0 +1,13 @@
+local-chat-radius: 100
+private-messages: "${sender_prefix} ${sender} ${sender_suffix} -> ${recipient_prefix} ${recipient} ${recipient_suffix}: ${message}"
+chat-style:
+  global: "(G) ${prefix} ${player} ${suffix}: ${color}${message}"
+  local: "(L) ${prefix} ${player} ${suffix}: ${color}${message}"
+message-color:
+  default: "§c" ##тут имена групп указываются
+  admin: "§e"
+mysql:
+  host: "localhost"
+  user: "root"
+  password: ""
+  database: "global"

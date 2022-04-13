@@ -1,0 +1,11 @@
+name: tz
+main: dev.ojiekcahdp.tezeshka.Main
+version: 1.0
+depend:
+  - Vault
+commands:
+  msg:
+    aliases:
+      - reply
+      - r
+  eco:
